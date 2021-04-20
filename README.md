@@ -9,7 +9,8 @@
 - cx_Oracle: 파이썬과 오라클 연동
 
 # 설명
-- 키움 API를 사용하여 실시간 체결량과 가격 데이터를 오라클 DB에 저장합니다
+- 키움 API를 사용하여 실시간 체결량과 가격 데이터를 오라클 DB에 저장합니다.
+- 오라클DB와 연동을 위해 cx_Oracle외에 oracle instant client를 다운받아야 합니다.
 - VPIN을 계산하고 선형회귀를 계산하기까지 충분한 거래량 정보가 필요합니다.
 - 이번 프로젝트에서 사용된 VPIN에 관해서는 여기를 참고해주세요 https://github.com/NannNada/VPIN
 
